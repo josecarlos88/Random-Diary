@@ -5,13 +5,13 @@
     <title> the idea bank </title>
   </head>
   <link rel="stylesheet" href="master.css">
-  <link href="main.otf" rel="stylesheet">
-  <link href="header.ttf" rel="stylesheet">
+  <link href="main.ttf" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
   <script>
 $(document).ready(function(){
+
 
     $("#recordbox").click(function(){ // click record -> record page
         $("#menuPage").slideUp();
@@ -42,15 +42,9 @@ $(document).ready(function(){
 
 });
 </script>
-
-
-<!-- ~~~~~~~~~~ the body ~~~~~~~~~~~ -->
   <body>
     <div class="content">
 
-<div id="prompt">
-<!-- <p>fdsff</p> -->
-</div>
 
 <!-- <div class="fetch myButton"></div> -->
 <div class="content">
@@ -60,7 +54,7 @@ $(document).ready(function(){
 
 <!-- The Record Idea Button -->
 <div id="recordbox">
-  <p>I fEeL CREATIVE</p>
+  <p>record an idea</p>
 </div>
 
 
@@ -71,17 +65,17 @@ $(document).ready(function(){
 
 <!-- The Button to take you to recieve an idea -->
 <div id="recievebox" class="fetch">
-  <p>i NeED HELP</p>
+  <p>recieve an idea</p>
 </div>
 </div>
 
 
 <!-- Div for the Record Page, with the user text input -->
 <div id="recordPage">
-  <textarea class="printIdea" name="printIdea" placeholder="Make up a story about all these emojis. Or if you can't do that then just leave this website, okay?" id="styled" rows="8" cols="80">
+  <textarea class="printIdea" name="printIdea" placeholder="type into this cybernetic mesh to expand its unity field with your creativity" id="styled" rows="8" cols="80">
   </textarea>
   <div class="submit">
-  <p>that's all folks</p>
+  <p>SEND</p>
   </div>
 </div>
 
@@ -98,6 +92,6 @@ $(document).ready(function(){
 
 <!-- Load the front end script, for communicating with the back end, GET and POST the info -->
 <script src="frontend.js"> </script>
-<script src="populator.js"> </script>
+
   </body>
 </html>
