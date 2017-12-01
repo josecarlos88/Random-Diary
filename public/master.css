@@ -99,11 +99,11 @@ body{
 /*Importing the special vintage computer font*/
 @font-face {
   font-family: myFirstFont;
-  src: url(bitwise.ttf);
+  src: url(main.otf);
 }
 @font-face {
   font-family: myTitleFont;
-  src: url(consolefont.ttf);
+  src: url(main.otf);
 }
 
 
