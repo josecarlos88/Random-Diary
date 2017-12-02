@@ -14,6 +14,6 @@ function getRandomElementArray(myArray){
   return myArray[getRandomInt(0,myLength)]
 }
 
-for (x=0; x<10; x++) $("#prompt").append(getRandomElementArray(emojis));
+for (x=0; x<4; x++) $("#prompt").append(getRandomElementArray(emojis));
 
 console.log(getRandomElementArray(emojis));
